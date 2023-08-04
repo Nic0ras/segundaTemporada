@@ -49,3 +49,14 @@ formAuth.style.backgroundColor = '#fafafa'
   //   console.log('Passou o mouse por cima');
   // }
 
+  //aplica focus no primeiro input (utilizando .onfocus)
+  let imail = document.querySelector('input[type="email"]')
+  imail.onfocus = () =>{
+    console.log('Entrou com o mouse no input');
+  }
+
+  //aplica blur no input user-name com o addEventListener
+  iname = document.querySelector('input[name="name"')
+  iname.addEventListener('blur', () => {
+    console.log('saiu com o mouse do input name')
+  })
