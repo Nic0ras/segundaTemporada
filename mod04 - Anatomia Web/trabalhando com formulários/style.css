@@ -1,0 +1,28 @@
+.box{
+    margin: 10vh;
+    padding: 10vh;
+    border: red;
+}
+
+.box::before{
+    content: "Não sei o que eu to fazendo aqui";
+    color:red
+}
+
+p:hover{
+    color: blueviolet;
+}
+
+.box::after{
+    content: "Não sei o que eu to fazendo aqui";
+    color:blue
+}
+
+.box-2{
+    margin: 10vh;
+    padding: 10vh;
+    border: red;
+}
+
+
+
